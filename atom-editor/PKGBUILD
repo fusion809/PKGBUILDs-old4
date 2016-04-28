@@ -13,7 +13,8 @@ optdepends=('gvfs: file deletion support')
 makedepends=('git' 'npm')
 conflicts=('atom-editor-bin' 'atom-editor-git')
 install=atom.install
-source=("v${pkgver}.tar.gz::https://codeload.github.com/atom/atom/tar.gz/v${pkgver}")
+source=("https://github.com/atom/atom/archive/v${pkgver}.tar.gz"
+#"v${pkgver}.tar.gz::https://codeload.github.com/atom/atom/tar.gz/v${pkgver}")
 sha256sums=('f6784b4f681706faf1e2a8369c06df4289646b1a547032e6b0b8b0e93e848113')
 
 prepare() {
