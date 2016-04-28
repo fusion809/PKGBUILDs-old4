@@ -1,16 +1,3 @@
-antu-icon-theme-git
-appset-qt
-aptana-studio
-archdroid-icon-theme
-archlinux-themes-sddm
-artwork-maia
-atom-editor
-atom-editor-beta
-blockify
-brackets
-broadcom-wl-dkms
-clarity-icon-theme
-clipper
 codelite
 coot
 cower
