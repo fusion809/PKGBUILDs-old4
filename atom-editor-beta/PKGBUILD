@@ -2,7 +2,7 @@
 # Maintainer: Brenton Horne <brentonhorne77 at gmail dot com>
 
 pkgname=atom-editor-beta
-_pkgrel=2
+_pkgrel=3
 _pkgver=1.8.0
 pkgver="${_pkgver}.${_pkgrel}"
 pkgrel=1
@@ -16,7 +16,7 @@ makedepends=('git' 'npm')
 conflicts=('atom-editor-beta-bin')
 install=atom.install
 source=("https://github.com/atom/atom/archive/v${_pkgver}-beta${_pkgrel}.tar.gz")
-sha256sums=('a2f93ef7816c158b8aa4fe369bc2801c130e71e7f505ef3ad741cfc683589b36')
+sha256sums=('58c79049787a0b844c434d1364bb25ed2ce8176eaf565efaf9312bc6e68bca99')
 
 prepare() {
 	cd "$srcdir/atom-${_pkgver}-beta${_pkgrel}"
