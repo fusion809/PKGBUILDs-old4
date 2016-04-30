@@ -56,7 +56,9 @@ package() {
 		mv "$pkgdir/usr/bin/atom" "$pkgdir/usr/bin/atom-beta"
   fi
 
-	rm "$pkgdir/usr/bin/apm"
+	if [[ -f "$pkgdir/usr/bin/apm" ]]; then
+		rm "$pkgdir/usr/bin/apm"
+	fi
 
 	ln -sf "${pkgdir}/usr/share/atom-beta/resources/app/apm/node_modules/.bin/apm" "${pkgdir}/usr/bin/apm-beta"
 
